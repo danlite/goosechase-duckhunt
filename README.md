@@ -19,6 +19,8 @@
 1. Navigate back up to `client/` and run `npm run dev` to start the React application
 1. Visit http://localhost:3000 to see the app in action
 
+![alt text](docs/app-screenshot.png)
+
 ## Technologies
 
 ### Infrastructure
