@@ -1,0 +1,24 @@
+query ListMissions(
+  $limit: Int
+  $offset: Int
+  $sort: Sort
+  $typeFilter: [String!]
+) {
+  missions(
+    input: {
+      limit: $limit
+      offset: $offset
+      sort: $sort
+      typeFilter: $typeFilter
+    }
+  ) {
+    data {
+      id
+      name
+      description
+      points
+      type
+    }
+    total
+  }
+}
